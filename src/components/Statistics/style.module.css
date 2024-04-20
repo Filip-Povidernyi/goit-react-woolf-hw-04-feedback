@@ -1,0 +1,15 @@
+.stat {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-left: 40px;
+    font-size: 22px;
+}
+
+.container {
+    padding: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}

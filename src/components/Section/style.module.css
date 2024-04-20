@@ -1,0 +1,9 @@
+.wrap {
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
