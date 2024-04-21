@@ -32,12 +32,12 @@ export const App = () => {
         <FeedbackOptions options={stateNames} onLeaveFeedback={onLeaveFeedback} />
       </Section>
       <Section title='Statistics'>
-        {totalFeedback() !== 0 ? 
+        {totalFeedback !== 0 ? 
         (<Statistics good={good}
           neutral={neutral}
           bad={bad}
-          total={totalFeedback()}
-          positiveFeedback={totalPercentage()}/>) : (
+          total={totalFeedback}
+          positiveFeedback={totalPercentage}/>) : (
           <div className={AppStyles.title}>There is no feedback</div>)}
       </Section>
       </div>
